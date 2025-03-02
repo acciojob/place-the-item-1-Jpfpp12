@@ -8,6 +8,46 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Ordering</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px; /* Space between the squares */
+            height: 100vh;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .red { background-color: red; order: 1; }
+        .blue { background-color: blue; order: 2; }
+        .green { background-color: green; order: 3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red">1</div>
+        <div class="box blue">2</div>
+        <div class="box green">3</div>
+    </div>
+</body>
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
