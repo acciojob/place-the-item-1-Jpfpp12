@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Ordering</title>
     <style>
-        .container {
+        .holder {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,7 +23,7 @@
             height: 100vh;
         }
 
-        .box {
+        .item {
             width: 100px;
             height: 100px;
             display: flex;
@@ -40,10 +40,10 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box red">1</div>
-        <div class="box blue">2</div>
-        <div class="box green">3</div>
+    <div class="holder">
+        <div class="item red">1</div>
+        <div class="item blue">2</div>
+        <div class="item green">3</div>
     </div>
 </body>
 </html>
