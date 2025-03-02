@@ -17,24 +17,30 @@
     <style>
         .holder {
             display: flex;
+			flex-wrap:10px;
             justify-content: center;
             align-items: center;
             gap: 50px; /* Space between the squares */
             height: 100vh;
+		
         }
 
         .item {
             width: 100px;
             height: 100px;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             font-size: 40px;
             font-weight: bold;
             color: black;
+		
         }
 
-        .red { background-color: red; order: 1; }
+        .red {
+			background-color: red; order: 1;
+ 
+			 } 
         .blue { background-color: blue; order: 2; }
         .green { background-color: green; order: 3; }
     </style>
